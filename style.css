@@ -18,6 +18,7 @@ body{
     justify-content: space-between;
 }
 img{
+    width: 300px;
     height: 200px;
 }
 a{
@@ -62,4 +63,33 @@ a,.secondaryhero{
 .signup{
     background-color: #3882f6;
     border-radius: 16px;
+}
+.content{
+    background-color: #f9faf8;
+    padding: 30px 350px;
+    
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin: auto;
+    flex: 1;
+}
+.subtext{
+    text-align: center;
+}
+.cards img{
+    height: 150px;
+    max-width: 100%;
+    border-radius: 10px;
 }
